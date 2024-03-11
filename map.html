@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_076aa6f56bbeb62eca8f7bda7bf50883 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_076aa6f56bbeb62eca8f7bda7bf50883" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_076aa6f56bbeb62eca8f7bda7bf50883 = L.map(
+                "map_076aa6f56bbeb62eca8f7bda7bf50883",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4e65bcd000426b814eda9bf7c893774a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_076aa6f56bbeb62eca8f7bda7bf50883);
+        
+    
+            var marker_1102fd1d839ee549410236074d72f8c8 = L.marker(
+                [55.840145111083984, 38.182125091552734],
+                {}
+            ).addTo(map_076aa6f56bbeb62eca8f7bda7bf50883);
+        
+    
+            var icon_94255225bac9d6cb5debf3396aa6891e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1102fd1d839ee549410236074d72f8c8.setIcon(icon_94255225bac9d6cb5debf3396aa6891e);
+        
+    
+        var popup_df4c9364822b938f7a9d767a5dbdaa15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b9143be96d0f638af2a61caea779ae0 = $(`<div id="html_0b9143be96d0f638af2a61caea779ae0" style="width: 100.0%; height: 100.0%;">Image: D:/DOWNLOADS/CRASH.jpeg<br>Score: 0.09846020489931107<br>Similarity Score 1km: 95.0</div>`)[0];
+                popup_df4c9364822b938f7a9d767a5dbdaa15.setContent(html_0b9143be96d0f638af2a61caea779ae0);
+            
+        
+
+        marker_1102fd1d839ee549410236074d72f8c8.bindPopup(popup_df4c9364822b938f7a9d767a5dbdaa15)
+        ;
+
+        
+    
+    
+            var marker_8a505b27bbf44937b39c10eed4f85691 = L.marker(
+                [58.134559631347656, 24.5116024017334],
+                {}
+            ).addTo(map_076aa6f56bbeb62eca8f7bda7bf50883);
+        
+    
+            var icon_e2f75255d9208f957070affff42809e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8a505b27bbf44937b39c10eed4f85691.setIcon(icon_e2f75255d9208f957070affff42809e9);
+        
+    
+        var popup_4084b15c4a3fd594816003a55503f6eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e94425176543eb2b645d6f7a1436f72c = $(`<div id="html_e94425176543eb2b645d6f7a1436f72c" style="width: 100.0%; height: 100.0%;">Image: D:/DOWNLOADS/CRASH.jpeg<br>Score: 0.03590822592377663<br>Similarity Score 1km: 34.64629660528614</div>`)[0];
+                popup_4084b15c4a3fd594816003a55503f6eb.setContent(html_e94425176543eb2b645d6f7a1436f72c);
+            
+        
+
+        marker_8a505b27bbf44937b39c10eed4f85691.bindPopup(popup_4084b15c4a3fd594816003a55503f6eb)
+        ;
+
+        
+    
+    
+            var marker_b59735c5aeb9f1e4786a05e35e0424c6 = L.marker(
+                [64.839599609375, -147.60520935058594],
+                {}
+            ).addTo(map_076aa6f56bbeb62eca8f7bda7bf50883);
+        
+    
+            var icon_a6dbf42a0cc41a2a961f06b8648b8ec4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b59735c5aeb9f1e4786a05e35e0424c6.setIcon(icon_a6dbf42a0cc41a2a961f06b8648b8ec4);
+        
+    
+        var popup_155771ac7264099a627567d996b0785a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89ed722e2facef0d521a516fd5b3dfd9 = $(`<div id="html_89ed722e2facef0d521a516fd5b3dfd9" style="width: 100.0%; height: 100.0%;">Image: D:/DOWNLOADS/CRASH.jpeg<br>Score: 0.020829230546951294<br>Similarity Score 1km: 20.097225107178488</div>`)[0];
+                popup_155771ac7264099a627567d996b0785a.setContent(html_89ed722e2facef0d521a516fd5b3dfd9);
+            
+        
+
+        marker_b59735c5aeb9f1e4786a05e35e0424c6.bindPopup(popup_155771ac7264099a627567d996b0785a)
+        ;
+
+        
+    
+    
+            var marker_1c8bb879e19f598cd8a2d8e3941ab2d9 = L.marker(
+                [59.41329574584961, 24.830732345581055],
+                {}
+            ).addTo(map_076aa6f56bbeb62eca8f7bda7bf50883);
+        
+    
+            var icon_6b9c19c25556206d9212bc64f9e19c89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1c8bb879e19f598cd8a2d8e3941ab2d9.setIcon(icon_6b9c19c25556206d9212bc64f9e19c89);
+        
+    
+        var popup_cf23c84bb025752d5cae00f9fbc44c09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85571e56eee91e1277bd457e81490220 = $(`<div id="html_85571e56eee91e1277bd457e81490220" style="width: 100.0%; height: 100.0%;">Image: D:/DOWNLOADS/CRASH.jpeg<br>Score: 0.01857118494808674<br>Similarity Score 1km: 35.837068831462176</div>`)[0];
+                popup_cf23c84bb025752d5cae00f9fbc44c09.setContent(html_85571e56eee91e1277bd457e81490220);
+            
+        
+
+        marker_1c8bb879e19f598cd8a2d8e3941ab2d9.bindPopup(popup_cf23c84bb025752d5cae00f9fbc44c09)
+        ;
+
+        
+    
+    
+            var marker_3f9d345ef20b0fd8c7274c4ec71cd047 = L.marker(
+                [59.41329574584961, 24.830732345581055],
+                {}
+            ).addTo(map_076aa6f56bbeb62eca8f7bda7bf50883);
+        
+    
+            var icon_b6397fa1f250699326855e8bfa3ea26a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3f9d345ef20b0fd8c7274c4ec71cd047.setIcon(icon_b6397fa1f250699326855e8bfa3ea26a);
+        
+    
+        var popup_8eb7c9d85e6b4e27422d34ce51fdf91d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2f62e4ae858ee4de5a8125dd442622d = $(`<div id="html_d2f62e4ae858ee4de5a8125dd442622d" style="width: 100.0%; height: 100.0%;">Image: D:/DOWNLOADS/CRASH.jpeg<br>Score: 0.01857118494808674<br>Similarity Score 1km: 35.837068831462176</div>`)[0];
+                popup_8eb7c9d85e6b4e27422d34ce51fdf91d.setContent(html_d2f62e4ae858ee4de5a8125dd442622d);
+            
+        
+
+        marker_3f9d345ef20b0fd8c7274c4ec71cd047.bindPopup(popup_8eb7c9d85e6b4e27422d34ce51fdf91d)
+        ;
+
+        
+    
+    
+            var marker_681d5e38af51be1eb523e1fa39a489e4 = L.marker(
+                [51.30558776855469, 13.554274559020996],
+                {}
+            ).addTo(map_076aa6f56bbeb62eca8f7bda7bf50883);
+        
+    
+            var icon_daeee835be8db6d31c9c217d398011dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_681d5e38af51be1eb523e1fa39a489e4.setIcon(icon_daeee835be8db6d31c9c217d398011dc);
+        
+    
+        var popup_9341af6bc813702d88ed49c97d04ed95 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e156ed5f880d1f8fd08d90f2999cb49 = $(`<div id="html_3e156ed5f880d1f8fd08d90f2999cb49" style="width: 100.0%; height: 100.0%;">Image: D:/DOWNLOADS/CRASH.jpeg<br>Score: 0.015315378084778786<br>Similarity Score 1km: 14.777146965536783</div>`)[0];
+                popup_9341af6bc813702d88ed49c97d04ed95.setContent(html_3e156ed5f880d1f8fd08d90f2999cb49);
+            
+        
+
+        marker_681d5e38af51be1eb523e1fa39a489e4.bindPopup(popup_9341af6bc813702d88ed49c97d04ed95)
+        ;
+
+        
+    
+    
+            var marker_5c509bfaa1434b1c20d7da5d1916b755 = L.marker(
+                [54.889739990234375, 38.14624786376953],
+                {}
+            ).addTo(map_076aa6f56bbeb62eca8f7bda7bf50883);
+        
+    
+            var icon_7953b98774cf792df3d39aff40087b4b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c509bfaa1434b1c20d7da5d1916b755.setIcon(icon_7953b98774cf792df3d39aff40087b4b);
+        
+    
+        var popup_0125070dcc9060a15f2e5c984d29ec16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a995b3b423c8d24402e13b6496c4a77 = $(`<div id="html_3a995b3b423c8d24402e13b6496c4a77" style="width: 100.0%; height: 100.0%;">Image: D:/DOWNLOADS/CRASH.jpeg<br>Score: 0.01040976494550705<br>Similarity Score 1km: 10.043932681579147</div>`)[0];
+                popup_0125070dcc9060a15f2e5c984d29ec16.setContent(html_3a995b3b423c8d24402e13b6496c4a77);
+            
+        
+
+        marker_5c509bfaa1434b1c20d7da5d1916b755.bindPopup(popup_0125070dcc9060a15f2e5c984d29ec16)
+        ;
+
+        
+    
+    
+            var marker_3c96969aeb70cbe576ecf0e634b6cdc5 = L.marker(
+                [51.302757263183594, 13.56937026977539],
+                {}
+            ).addTo(map_076aa6f56bbeb62eca8f7bda7bf50883);
+        
+    
+            var icon_2aff46b8aacd2fd8ded55b1455b01a5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_3c96969aeb70cbe576ecf0e634b6cdc5.setIcon(icon_2aff46b8aacd2fd8ded55b1455b01a5e);
+        
+    
+        var popup_9a2cb1a70db80e80abbbb762c81e867f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a6ec907da84721c3e5c140b4d58fb5c = $(`<div id="html_1a6ec907da84721c3e5c140b4d58fb5c" style="width: 100.0%; height: 100.0%;">Image: D:/DOWNLOADS/CRASH.jpeg<br>Score: 0.009625181555747986<br>Similarity Score 1km: 9.28692204867082</div>`)[0];
+                popup_9a2cb1a70db80e80abbbb762c81e867f.setContent(html_1a6ec907da84721c3e5c140b4d58fb5c);
+            
+        
+
+        marker_3c96969aeb70cbe576ecf0e634b6cdc5.bindPopup(popup_9a2cb1a70db80e80abbbb762c81e867f)
+        ;
+
+        
+    
+    
+            var marker_c3580b6db2ff5c9c1abecf55c0c46277 = L.marker(
+                [66.90387725830078, -162.5708770751953],
+                {}
+            ).addTo(map_076aa6f56bbeb62eca8f7bda7bf50883);
+        
+    
+            var icon_cc2c7d23b829903f7d0d83cdd7fef9c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c3580b6db2ff5c9c1abecf55c0c46277.setIcon(icon_cc2c7d23b829903f7d0d83cdd7fef9c3);
+        
+    
+        var popup_1e5b3ed223e661296c56f9edcf8c09b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a4222e18c71b658793271b9e4b773d6 = $(`<div id="html_1a4222e18c71b658793271b9e4b773d6" style="width: 100.0%; height: 100.0%;">Image: D:/DOWNLOADS/CRASH.jpeg<br>Score: 0.009350787848234177<br>Similarity Score 1km: 9.022171409156414</div>`)[0];
+                popup_1e5b3ed223e661296c56f9edcf8c09b8.setContent(html_1a4222e18c71b658793271b9e4b773d6);
+            
+        
+
+        marker_c3580b6db2ff5c9c1abecf55c0c46277.bindPopup(popup_1e5b3ed223e661296c56f9edcf8c09b8)
+        ;
+
+        
+    
+    
+            var marker_e3c9ff4c601f6e71d2b43c4ecfc27601 = L.marker(
+                [61.87779998779297, -162.0811004638672],
+                {}
+            ).addTo(map_076aa6f56bbeb62eca8f7bda7bf50883);
+        
+    
+            var icon_13e1f22f3b4245a57715cd0c48806d40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "red", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e3c9ff4c601f6e71d2b43c4ecfc27601.setIcon(icon_13e1f22f3b4245a57715cd0c48806d40);
+        
+    
+        var popup_aa34e8480d7ba31850d15587c534ac5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_170748a095838aefe2a055140727ba46 = $(`<div id="html_170748a095838aefe2a055140727ba46" style="width: 100.0%; height: 100.0%;">Image: D:/DOWNLOADS/CRASH.jpeg<br>Score: 0.008030062541365623<br>Similarity Score 1km: 7.747860592102748</div>`)[0];
+                popup_aa34e8480d7ba31850d15587c534ac5b.setContent(html_170748a095838aefe2a055140727ba46);
+            
+        
+
+        marker_e3c9ff4c601f6e71d2b43c4ecfc27601.bindPopup(popup_aa34e8480d7ba31850d15587c534ac5b)
+        ;
+
+        
+    
+</script>
+</html>
